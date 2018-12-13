@@ -1,8 +1,9 @@
-  @charset "utf-8";
+ @charset "utf-8";
  
  html {
 	margin: 0; padding: 0; border: 0;
-	background-color:#00FFFF;
+	background-image:url("background.jpg");
+	
 }
 
 body {
@@ -10,13 +11,20 @@ body {
 	min-width: 320px;
 	background-color:#00FFFF;
 	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1020px;
+	min-width:1040px;
 }
-body header img {
- display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+
+body header {
+	background-color: rgb(244, 149, 224);
 }
+
+body header p {
+	font-size: 8em;
+}
+
 nav  {
 	font-size: 0.9em;
 	text-align: center;
@@ -32,6 +40,9 @@ nav  a:hover, nav a:active {
 	text-decoration: underline;
 	color: black;
 }
+	ul{
+		list-style-type:none;
+	}
 h1{
 	text-align: center;
 }
@@ -45,3 +56,21 @@ img{
     margin-right: auto;
     width: 40%;
 }	
+footer{
+	background-color:white;
+
+}
+footer p{
+	font-size:16px;
+}
+img{
+	border-radius: 10%;
+	padding:10px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+h2{
+	text-align:center;
+}
+

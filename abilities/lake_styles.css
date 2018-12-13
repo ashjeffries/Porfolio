@@ -1,0 +1,51 @@
+﻿@/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author:  Morgan and Jenna
+   Date:   10-2-18
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+
+@font-face {
+	/* code to add font from files */
+	font-family: Dobkin;
+	src: url('DobkinPlain.woff') format('woff'),
+	url('DobkinPlain.ttf') format('truetype');
+}
+html {
+	/*changes background color of the whole page, overwritten by body color*/
+	background-color: #994d00;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+}
+section > h1 {
+	font-family: Dobkin, cursive;
+	font-size: 1.5em;
+}
+#leftcol  p {
+	font-family: Verdana, sans-serif;
+	padding: 10px;
+	margin: 10px;
+}
+#leftcol p:first-of-type::first-letter {
+	font-size: 1.5em;
+}
+a:link, a:visited {
+	/*changes color of unvisited and visited links*/
+	color: rgb(100, 100, 100)
+}
+nav h2 {
+	color: rgb(175, 175, 175);
+}
+ul {
+	list-style: square;
+}
