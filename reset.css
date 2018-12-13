@@ -73,45 +73,5 @@ img{
 }
 
 
-/*Mobile Styles*/
 
 
-@media only screen and (max-width: 480px){  /* Code From Lauren */
-	 a#navicon {
-		display:block;
-	}
-	nav ul{
-		display: none;
-	}
-	a#navicon:hover+ul, nav.horizontal ul:hover{
-		display:block; /*Fixed by Morgan */
-		
-	}
-	html{
-		background-image:none;
-		background-color:black;
-	}
-	footer p{
-		font-size:20px;
-		
-	}
-	body {
-	margin: 0px auto auto auto;
-	min-width: 100px;
-	background-color:#00FFFF;
-	width:auto;
-	margin-left:auto;
-	margin-right:auto;
-	max-width:700px;
-	min-width:100px;
-	}
-		body header{
-		display:none;
-	}}
-
-/*Desktop and Tablet Styles*/
-
-@media only screen and (min-width: 481px){
-a#navicon{
-	display: none;
-}
